@@ -1,7 +1,23 @@
 {
   "version": "0.2.0",
   "configurations": [
+<<<<<<< HEAD
 
+=======
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+    
+>>>>>>> 6400ee8 ( Changes)
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "lldb",
